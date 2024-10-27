@@ -7,7 +7,6 @@ const sequelize = new Sequelize(BD, USER, PASSWORD, {
   host: HOST,
 });
 
-
 /*
 sequelize
   .authenticate()

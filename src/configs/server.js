@@ -6,7 +6,4 @@ const app = express();
 app.use(express.json());
 app.use(routes);
 
-const { PORT } = process.env;
-app.listen(PORT, () => {
-  console.log(`Servidor aberto na porta ${PORT}`);
-});
+module.exports = app;
